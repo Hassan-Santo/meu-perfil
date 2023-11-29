@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NQS</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: linear-gradient(to right, #00b7ff, #86dafa);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-image: linear-gradient(to bottom, #00aeffb0, #00546b7d);
+            padding: 5px;
+            box-shadow: -5px 0px 5px #0000009e;
+        }
+
+        header nav{
+            padding-left: 5px;
+        }
+
+        header >nav >a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            transition-duration: 0.5s;
+        }
+
+        header >nav >a:hover{
+            color: #62cdff;
+            background-color: #004a6c;
+            border-radius: 5px;
+        }
+
+        header >nav >a:active{
+            color: aliceblue;
+        }
+
+        .per{
+          background-color: #006fa3a3;
+          border-radius: 5px;
+        }
+
+        main{
+            min-width: 200px;
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        section{
+            margin-top: 100px;
+        }
+
+        p{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        img{
+             max-width: 200px;
+             display: block;
+             margin: auto;
+             border-radius: 200px;
+             box-shadow: 0px 0px 8px #00000053;
+        }
+
+        aside{
+            margin: auto;
+            margin-top: 20px;
+            max-width: 210px;
+            padding-left: 20px;
+        }
+
+        aside >button{
+            background-color: #0070a3;
+            padding: 5px;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+            border: 1px solid #004e72;
+            box-shadow: 0px 0px 5px #000000;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        aside >button >a:hover{
+            color: #004a6c;
+        }
+
+        aside >button:hover{
+            background-color: #00a2ed;
+        }
+
+        aside >button >a:active{
+            color: #0090d3;
+        }
+
+        button >a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="per">Perfil</a>
+            <a href="paginas/biografia.html" target="_self" rel="next">Biografia</a>
+            <a href="paginas/serviços.html" target="_self" rel="next">Serviços</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <p>Olá <br> 
+                    Seja bem vindo(a)</p>
+            </article>
+            <img src="imagens/perfil.jpg" alt="flex">
+            <aside>
+                <button><a href="opçoes/fotos.html">Fotos</a></button>
+                <button><a href="#">Ligações</a></button>
+                <button><a href="opçoes/mais.html">Mais</a></button>
+            </aside>
+        </section>
+    </main>
+    
+</body>
+</html>

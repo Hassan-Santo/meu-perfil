@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NQS</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: linear-gradient(to right, #00b7ff, #86dafa);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-image: linear-gradient(to bottom, #00aeffb0, #00546b7d);
+            padding: 5px;
+            box-shadow: -5px 0px 5px #0000009e;
+        }
+
+        header nav{
+            padding-left: 5px;
+        }
+
+        header >nav >a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            transition-duration: 0.5s;
+        }
+
+        header >nav >a:hover{
+            color: #62cdff;
+            background-color: #004a6c;
+            border-radius: 5px;
+        }
+
+        header >nav >a:active{
+            color: aliceblue;
+        }
+
+        .ser{
+            background-color: #006fa3a3;
+          border-radius: 5px;
+        }
+
+        main{
+            min-width: 200px;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #62cdff2b;
+            box-shadow: 2px 2px 4px #0000002d;
+        }
+
+        section h1{
+            text-align: center;
+            font-size: 2em;
+            background-color: #86d9fa5a;
+            border-radius: 40px;
+        }
+
+        
+        section ul{
+            max-width: 100px;
+            margin: auto;
+            color: #004a6c;
+        }
+
+        li::after{
+            content: ' \2714';
+            color: green;
+        }
+
+        article h2{
+            background-image: linear-gradient(to right, #86d9fa8c, transparent);
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+
+        article .front::after{
+                   content: ' <';
+        }
+
+        article .back::after{
+                   content: ' <';
+        }
+
+        article .des::after{
+            content: ' <';
+        }
+
+        p{
+            text-indent: 20px;
+        }
+
+        aside{
+            width: 300px;
+            margin: auto;
+        }
+
+        aside >.acessos{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        aside >.acessos2{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            padding-left: 50px;
+        }
+
+        aside >.acessos3{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            padding-left: 50px;
+        }
+        
+        aside >a:hover{
+            color: #004a6c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="perfil.html" target="_self" rel="prev">Perfil</a>
+            <a href="biografia.html" target="_self">Biografia</a>
+            <a href="#" class="ser">Serviços</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Serviços</h1>
+             <ul>
+                <li>Front-End</li>
+                <br>
+                <li>Back-End</li>
+                <br>
+                <li>Designer</li>
+             </ul>
+        </section>
+        <article>
+          <h2 class="front">Front-End</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste veniam, corporis saepe officia reiciendis non! Voluptates culpa delectus dolor ipsam tempora! Beatae quaerat quasi culpa voluptas quibusdam voluptate dignissimos.</p>
+          <aside>
+            <a href="#" class="acessos">Github</a>  <a href="#" class="acessos2">Portifolio</a> <a href="#" class="acessos3">Demo</a>
+          </aside>
+          <h2 class="back">Back-End</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, illum harum esse alias deserunt atque voluptatibus et delectus pariatur, officiis sed ex ut excepturi totam accusantium qui corrupti libero mollitia?</p>
+          <aside>
+            <a href="#" class="acessos">Github</a>  <a href="#" class="acessos2">Portifolio</a> <a href="#" class="acessos3">Demo</a>
+          </aside>
+          <h2 class="des">Designer</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate quod eum animi, distinctio non quam mollitia consequuntur dolore laudantium enim placeat maxime? Totam, cupiditate accusantium incidunt commodi adipisci expedita?</p>
+          <aside>
+            <a href="#" class="acessos">Github</a>  <a href="#" class="acessos2">Portifolio</a> <a href="#" class="acessos3">Demo</a>
+          </aside>
+        </article>
+    </main>
+    
+</body>
+</html>
